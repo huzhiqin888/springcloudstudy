@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/huzhiqin888/springcloudstudy # github 仓库位置
+          uri: https://github.com/zzyybs/springcloud-config # github 仓库位置
           ## 搜索目录
           search-paths:
             - springcloud-config
@@ -17,3 +17,16 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka/
+
+# rabbitMq的相关配置
+rabbitmq:
+  host: localhost
+  port: 5672  # 这里没错，虽然rabbitMQ网页是 15672
+  username: guest
+  password: guest
+# rabbitmq 的相关配置2 暴露bus刷新配置的端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'bus-refresh'

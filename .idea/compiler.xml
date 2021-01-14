@@ -8,7 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-consumer-order80" />
+        <module name="cloudalibaba-provider-payment9001" />
         <module name="cloud-provider-payment8001" />
+        <module name="cloudalibaba-customer-order83" />
         <module name="cloud-config-center3344" />
         <module name="cloud-eureka-server7002" />
         <module name="cloud-eureka-server7001" />
@@ -20,14 +22,23 @@
         <module name="cloud-provider-payment8002" />
         <module name="cloud-customerzk-order80" />
         <module name="cloud-provider-hystrix-payment8001" />
+        <module name="cloud-stream-rabbitmq-consumer8802" />
+        <module name="cloud-stream-rabbitmq-provider8801" />
         <module name="cloud-providerconsul-service8006" />
+        <module name="cloudalibaba-provider-payment9002" />
+        <module name="cloud-config-client-3355" />
         <module name="cloud-consumer-fegin-order80" />
         <module name="cloud-gateway-gateway9527" />
+        <module name="cloudalibaba-nacos-config3377" />
+        <module name="cloud-config-client-3366" />
+        <module name="cloud-stream-rabbitmq-consumer8803" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-api-commons" target="1.8" />
       <module name="cloud-config-center3344" target="1.8" />
+      <module name="cloud-config-client-3355" target="1.8" />
+      <module name="cloud-config-client-3366" target="1.8" />
       <module name="cloud-consumer-fegin-order80" target="1.8" />
       <module name="cloud-consumer-order80" target="1.8" />
       <module name="cloud-consumerconsul-order80" target="1.8" />
@@ -42,6 +53,13 @@
       <module name="cloud-provider-payment8002" target="1.8" />
       <module name="cloud-provider-payment8004" target="1.8" />
       <module name="cloud-providerconsul-service8006" target="1.8" />
+      <module name="cloud-stream-rabbitmq-consumer8802" target="1.8" />
+      <module name="cloud-stream-rabbitmq-consumer8803" target="1.8" />
+      <module name="cloud-stream-rabbitmq-provider8801" target="1.8" />
+      <module name="cloudalibaba-customer-order83" target="1.8" />
+      <module name="cloudalibaba-nacos-config3377" target="1.8" />
+      <module name="cloudalibaba-provider-payment9001" target="1.8" />
+      <module name="cloudalibaba-provider-payment9002" target="1.8" />
       <module name="springcloudstudy" target="1.8" />
     </bytecodeTargetLevel>
   </component>

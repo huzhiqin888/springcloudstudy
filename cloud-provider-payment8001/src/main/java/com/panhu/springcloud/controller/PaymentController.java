@@ -70,4 +70,9 @@ public class PaymentController {
         return "---8001 lb方法受到请求，参数id为：" + id;
     }
 
+    @GetMapping("/payment/zipkin")
+    public String paymentzipkin(){
+        return "这是zipkin啊啊啊啊啊啊啊啊";
+    }
+
 }
